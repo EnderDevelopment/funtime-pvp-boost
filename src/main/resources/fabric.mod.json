@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fantime_client",
+  "version": "${version}",
+  "name": "Fantime Client",
+  "description": "Client-side visual, performance and PvP quality-of-life tools for Fantime.",
+  "authors": ["EnderDevelopment"],
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ru.fantime.client.FantimeMod"
+    ],
+    "client": [
+      "ru.fantime.client.FantimeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": ">=0.107.0+1.21.1"
+  }
+}
